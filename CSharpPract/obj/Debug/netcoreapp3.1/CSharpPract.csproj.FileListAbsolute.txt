@@ -1,0 +1,16 @@
+C:\Users\lia_m\Documents\Unity\CSharpPractFolder\CSharpPract\bin\Debug\netcoreapp3.1\CSharpPract.exe
+C:\Users\lia_m\Documents\Unity\CSharpPractFolder\CSharpPract\bin\Debug\netcoreapp3.1\CSharpPract.deps.json
+C:\Users\lia_m\Documents\Unity\CSharpPractFolder\CSharpPract\bin\Debug\netcoreapp3.1\CSharpPract.runtimeconfig.json
+C:\Users\lia_m\Documents\Unity\CSharpPractFolder\CSharpPract\bin\Debug\netcoreapp3.1\CSharpPract.runtimeconfig.dev.json
+C:\Users\lia_m\Documents\Unity\CSharpPractFolder\CSharpPract\bin\Debug\netcoreapp3.1\CSharpPract.dll
+C:\Users\lia_m\Documents\Unity\CSharpPractFolder\CSharpPract\bin\Debug\netcoreapp3.1\CSharpPract.pdb
+C:\Users\lia_m\Documents\Unity\CSharpPractFolder\CSharpPract\obj\Debug\netcoreapp3.1\CSharpPract.csprojAssemblyReference.cache
+C:\Users\lia_m\Documents\Unity\CSharpPractFolder\CSharpPract\obj\Debug\netcoreapp3.1\CSharpPract.AssemblyInfoInputs.cache
+C:\Users\lia_m\Documents\Unity\CSharpPractFolder\CSharpPract\obj\Debug\netcoreapp3.1\CSharpPract.AssemblyInfo.cs
+C:\Users\lia_m\Documents\Unity\CSharpPractFolder\CSharpPract\obj\Debug\netcoreapp3.1\CSharpPract.csproj.CoreCompileInputs.cache
+C:\Users\lia_m\Documents\Unity\CSharpPractFolder\CSharpPract\obj\Debug\netcoreapp3.1\CSharpPract.dll
+C:\Users\lia_m\Documents\Unity\CSharpPractFolder\CSharpPract\obj\Debug\netcoreapp3.1\CSharpPract.pdb
+C:\Users\lia_m\Documents\Unity\CSharpPractFolder\CSharpPract\obj\Debug\netcoreapp3.1\CSharpPract.genruntimeconfig.cache
+C:\Users\lia_m\Documents\Unity\CSharpPractFolder\CSharpPract\bin\Debug\netcoreapp3.1\BankyLib.dll
+C:\Users\lia_m\Documents\Unity\CSharpPractFolder\CSharpPract\bin\Debug\netcoreapp3.1\BankyLib.pdb
+C:\Users\lia_m\Documents\Unity\CSharpPractFolder\CSharpPract\obj\Debug\netcoreapp3.1\CSharpPract.csproj.CopyComplete
