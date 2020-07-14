@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using SomethingImportant;
-using BankyLib;
+using BankyLib; // BankyLib has Humanizer imported 
+using Humanizer;
 
 
 namespace CSharpPract
@@ -17,16 +18,18 @@ namespace CSharpPract
     ///                   Creating projects ->  https://docs.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code
     ///                   Connecting libraries to projects ->  https://docs.microsoft.com/en-us/dotnet/core/tutorials/library-with-visual-studio-code
     ///   Revision History:
-    ///   Name:           Date:        Description:
-    ///   Name:           Date:        Description:
-    ///   Name:           Date:        Description:
-    ///   Name:           Date:        Description:
+    ///   Name: Lia       Date: 7/13/2020   Description: added package Humanizer to project
+    ///   Name:        Date:    Description: 
     ///-----------------------------------------------------------------
     class Program
     {
 
         static void Main(string[] args)
         {
+            Console.WriteLine("car".Pluralize());
+            Console.WriteLine("pant".Pluralize());
+            Console.WriteLine("octopus".Pluralize());
+            Console.WriteLine(1350.ToWords());
             Console.WriteLine("Hello World! We are running your program.\n*****************");
 
             BankAccount liaAccount = new BankAccount("Lia", 100);
@@ -59,9 +62,9 @@ namespace CSharpPract
             liaAccount.PrintAllTransactions();
 
             practicingClasses();
-            PrintToNum(3);
-            FibFunction();
-            MicrosoftInputCopy();
+            // PrintToNum(3);
+            // FibFunction();
+            // MicrosoftInputCopy();
 
             void practicingClasses()
             {
@@ -145,39 +148,39 @@ namespace CSharpPract
             /// 1 - num
             /// <pram
             /// </summary>
-            void PrintToNum(int num)
-            {
-                for (int i = 1; i <= num; i++)
-                {
-                    Console.WriteLine(i);
-                }
-            }
+            // void PrintToNum(int num)
+            // {
+            //     for (int i = 1; i <= num; i++)
+            //     {
+            //         Console.WriteLine(i);
+            //     }
+            // }
             /// <summary>
             /// this function created a list with the first 8 numbers of the fibonacci sequence 
             /// </summary>
-            void FibFunction()
-            {
-                var fibNumbers = new List<int> { 0, 1, 1, 2, 3, 5, 8, 13 };
-                int count = 0;
-                foreach (int element in fibNumbers)
-                {
-                    count++;
-                    Console.WriteLine($"Element #{count}: {element}");
-                }
-                Console.WriteLine($"Number of elements: {count}");
-            }
+            // void FibFunction()
+            // {
+            //     var fibNumbers = new List<int> { 0, 1, 1, 2, 3, 5, 8, 13 };
+            //     int count = 0;
+            //     foreach (int element in fibNumbers)
+            //     {
+            //         count++;
+            //         Console.WriteLine($"Element #{count}: {element}");
+            //     }
+            //     Console.WriteLine($"Number of elements: {count}");
+            // }
             /// <summary>
             /// copied this code off of the microsoft official docs, it waits for an input
             /// </summary>
-            void MicrosoftInputCopy()
-            {
-                Console.WriteLine("Hello Please type your name: \n");
-                var nameInput = Console.ReadLine();
-                var date = DateTime.Now;
-                Console.WriteLine($"\nHello, {nameInput}, on {date:d} at {date:t}!");
-                Console.Write("\nPress any key to exit...");
-                Console.ReadKey(true);
-            }
+            // void MicrosoftInputCopy()
+            // {
+            //     Console.WriteLine("Hello Please type your name: \n");
+            //     var nameInput = Console.ReadLine();
+            //     var date = DateTime.Now;
+            //     Console.WriteLine($"\nHello, {nameInput}, on {date:d} at {date:t}!");
+            //     Console.Write("\nPress any key to exit...");
+            //     Console.ReadKey(true);
+            // }
         }
     }
 }

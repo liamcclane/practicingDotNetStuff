@@ -14,3 +14,4 @@ C:\Users\lia_m\Documents\Unity\CSharpPractFolder\CSharpPract\obj\Debug\netcoreap
 C:\Users\lia_m\Documents\Unity\CSharpPractFolder\CSharpPract\bin\Debug\netcoreapp3.1\BankyLib.dll
 C:\Users\lia_m\Documents\Unity\CSharpPractFolder\CSharpPract\bin\Debug\netcoreapp3.1\BankyLib.pdb
 C:\Users\lia_m\Documents\Unity\CSharpPractFolder\CSharpPract\obj\Debug\netcoreapp3.1\CSharpPract.csproj.CopyComplete
+C:\Users\lia_m\Documents\Unity\CSharpPractFolder\CSharpPract\bin\Debug\netcoreapp3.1\Humanizer.dll
