@@ -22,61 +22,26 @@ namespace SomethingImportant
         //key word static here means it is class specific
         public string LicensePlateNum;
         public string CarName;
+        public string Model;
         public string Owner;
         public string Make;
-        public string Model;
         public int Year;
 
-        public Car()
-        {
-            Owner = "Ownerless";
-            LicensePlateNum = "unknown";
-            Year = 0;
-        }
-        public Car(string owner, string license, int year)
-        {
-            Owner = owner;
-            LicensePlateNum = license;
-            Year = year;
-            TotalNumberOfCars++;
-        }
+        public Car() :this("Ownerless","unknown",0) {}
+        public Car(string owner, string license, int year) 
+            :this(owner,license,year, null) {}
         public Car(string owner, string license, int year, string carName)
+            :this(owner,license,year, carName, "make NA", "model NA") {}
+        public Car(string owner, string license, int year, string carName, string make, string model)
         {
             Owner = owner;
             LicensePlateNum = license;
-            Year = year;
+            Year = year < 0 ? 0 : year;
+            Make = make;
+            Model = model;
             CarName = carName;
             TotalNumberOfCars++;
         }
-        public Car(string owner, string license, int year, string carName, string make, string model)
-        {
-            // Owner = owner;
-            // LicensePlateNum = license;
-            // Year = year;
-            // Make = make;
-            // Model = model;
-            // CarName = carName;
-            // TotalNumberOfCars++;
-            Owner = owner == null ? "Ownerless" : owner;
-            LicensePlateNum = license == null ? "Unknown" : license;
-            Year = String.IsNullOrEmpty(year.ToString()) ? 0 : year;
-            Make = make == null ? null : make;
-            Model = model == null ? null : model;
-            CarName = carName == null ? null : carName;
-            TotalNumberOfCars++;
-        }
-        // below is weird and doesn't work if it is the only constructor
-        /**
-        public Car(string owner, string license, int year, string carName, string make, string model){
-            Owner = owner == null ? "Ownerless" : owner;
-            LicensePlateNum = license == null ? "License Unknown" : license;
-            Year = String.IsNullOrEmpty(year.ToString()) ? 0 : year;
-            Make = make == null ? null: make;
-            Model = model == null ? null : model;
-            CarName = carName == null? null: carName;
-            TotalNumberOfCars++;
-        }
-        */
 
         public Car print()
         {
@@ -93,8 +58,8 @@ namespace SomethingImportant
         }
         public int CompareYears(Car otherCar)
         {
-            if (Year > otherCar.Year) { return 1; };
-            if (Year < otherCar.Year) { return -1; };
+            if (this.Year > otherCar.Year) { return 1; };
+            if (this.Year < otherCar.Year) { return -1; };
             return 0;
         }
     }
